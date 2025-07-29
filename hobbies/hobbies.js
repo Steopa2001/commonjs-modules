@@ -1,9 +1,9 @@
 
 //Creo funzione con parametri  hobbyOne, hobbyTwo, hobbyThree.
-function hobbies (hobbyOne, HobbyTwo, hobbyThree){
+function hobbies (hobbyOne, hobbyTwo, hobbyThree){
     return [
         hobbyOne,
-        HobbyTwo,
+        hobbyTwo,
         hobbyThree
     ]
 };
