@@ -14,7 +14,11 @@ function getNamesAndHobbiesInfo (){
     const fullName = nomi('Giuseppe', 'Verdi');
     const hobbiesList = hobbies('play football', 'sleep', 'play tennis');
 
-   
+     // Ritorno un oggetto con i risultati
+    return {
+        fullName,
+        hobbiesList
+    }
 };
 
 console.log(getNamesAndHobbiesInfo())
