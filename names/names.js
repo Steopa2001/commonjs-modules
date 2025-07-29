@@ -4,7 +4,7 @@ function nomi (firstName, lastName) {
     return {
         firstName,
         lastName
-    }
+    };
 };
 
 //Esporto la funzione

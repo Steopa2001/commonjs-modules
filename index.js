@@ -1,5 +1,6 @@
-//Importo la funzione
+//Importo le funzioni
 const nomi = require('./names/names.js');
+const hobbies = require('./hobbies/hobbies.js')
 
-//Chiamo la funzione
-console.log(nomi('Giuseppe', 'Loris'))
+//Chiamo le funzioni
+console.log(nomi('Giuseppe', 'Verdi'));
